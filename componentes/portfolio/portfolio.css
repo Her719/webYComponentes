@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  background-color: #192130;
+  color: #ffffff;
+  width: 100%;
+  min-height: 900px;
+  padding: 84px 24px;
+  background-image: url("./Fondo\ 719-Her\ Oscuro.png"); /*indica la imagen */
+}
+
+.contenedor-servicios {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.servicios__titulo {
+  font-weight: 700;
+  font-size: 42px;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 66px;
+}
+
+.servicios_titulo-color {
+  color: #00adb5;
+}
+
+.servicios_contenedor-cards {
+  width: 324px;
+  min-height: 481px;
+  background-color: #393e4680;
+  border-radius: 16px;
+  opacity: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 48px;
+}
+
+.servicio__card-img {
+  width: 230px;
+  height: 158px;
+}
+
+.servicio__card-servicio {
+  font-weight: 700;
+  font-size: 33px;
+  margin: 0;
+  text-align: center;
+}
+
+.servicio__btn-mas-descripcion {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  align-self: flex-end;
+  background-color: #bc7af9;
+  border-radius: 20px;
+}
+
+.servicio__servicio-descripcion {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+  overflow: hidden;
+  /* Necesario para WebKit (Chrome, Safari, Edge) */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  /* Propiedad estándar */
+  line-clamp: 3;
+  /* Propiedad antigua WebKit */
+  -webkit-line-clamp: 3;
+  transition: all 0.3s ease;
+}
+
+/* Cuando está expandido */
+.servicio__servicio-descripcion.expanded {
+  /* Desactiva ambas versiones */
+  line-clamp: unset;
+  -webkit-line-clamp: unset;
+}
+
+/* 
+<div class="card">
+  <h3>Título del servicio</h3>
+  <p class="description">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec ex
+    convallis, vehicula justo id, ultricies lacus. Sed id ipsum vel velit
+    varius feugiat. Suspendisse potenti. Donec a sapien placerat, sagittis
+    lacus vitae, aliquam elit.
+  </p>
+  <button class="toggle-btn">Ver más</button>
+</div> */

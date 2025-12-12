@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins";
+}
+
+/* SECCION COMPLEMENTARIA DE SERVICIOS */
+
+.servicios .servicios_contenedor-cards:nth-of-type(n + 4) {
+  display: none;
+}
+
+.servicio__btn-ver-mas {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  width: 80px;
+  height: 35px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  background-color: #8c00ff;
+  align-self: center;
+}

@@ -1,0 +1,93 @@
+.footer-p {
+  width: 100%;
+  height: 534px;
+  background-color: #0f1113;
+  color: #ffffff;
+}
+
+.footer {
+  width: 100%;
+  height: 534px;
+  background-color: #0f1113;
+  color: #ffffff;
+}
+@media (min-width: 960px) {
+  .footer {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.contenedor__footer {
+  width: 250px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+@media (min-width: 960px) {
+  .contenedor__footer {
+    max-width: 550px;
+    height: 400px;
+  }
+}
+
+.footer__logo-footer {
+  width: 100px;
+  height: 100px;
+}
+
+.content__footer__menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 960px) {
+  .content__footer__menu {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 420px;
+    height: 47px;
+  }
+}
+
+.footer-menu {
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+.footer__logo-menu {
+  margin: 0;
+}
+
+.content__footer-redes {
+}
+
+.footer__logo-redes {
+  width: 48px;
+  height: 48px;
+}
+
+.footer__registro-legal {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+}
+
+.footer__registro-legal__link {
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  color: #eeeeee;
+  text-decoration: none;
+  margin-left: 5px;
+}
